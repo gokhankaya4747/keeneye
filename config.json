@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "difficulty": {
+    "slack": {
+      "easy": 1.95,
+      "breather": 2.05,
+      "normal": 1.36,
+      "hard": 1.13,
+      "boss": 1.02
+    },
+    "skillWeight": 0.3,
+    "rescuePerFail": 0.1
+  },
+  "ads": {
+    "minLevel": 10,
+    "warmupSec": 180,
+    "spacingSec": 180,
+    "afterRewardedSec": 120,
+    "levelGap": 4,
+    "levelGapNew": 5,
+    "sessionCap": 5,
+    "dayCap": 18
+  },
+  "economy": {
+    "startCoins": 100,
+    "hintPackCost": 120,
+    "continueCost": 60,
+    "dailyReward": 60
+  },
+  "experiments": {
+    "hard_slack": {
+      "variants": [
+        "control",
+        "gentle"
+      ],
+      "weights": [
+        50,
+        50
+      ],
+      "enabled": false
+    }
+  }
+}
